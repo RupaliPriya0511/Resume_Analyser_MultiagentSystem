@@ -166,16 +166,7 @@ variables are used. Custom tools are plain, typed Python functions, making it
 straightforward to replace or test them independently. The flow is primarily
 sequential, satisfying the assessment’s orchestration requirement while
 keeping the system simple and deterministic.
-
-### Submission Notes
-To complete the assessment submission, ensure that:
-
-1. `adk run smart_resume_analyzer` and `adk web` execute successfully
-   (ADK must be installed locally).  
-2. This README, plus `problem_statement.md`, is included in the repo.  
-3. The repository is pushed to a public GitHub URL.  
-4. Provide a 5–6 sentence explanation of the overall approach and agent
-   architecture (see below for a suggested text).  
+ 
 
 Below is a sample explanation.
 
