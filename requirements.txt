@@ -1,0 +1,3 @@
+# Minimal dependencies for the assessment
+PyPDF2
+Flask

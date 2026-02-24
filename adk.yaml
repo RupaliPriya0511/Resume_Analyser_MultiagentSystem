@@ -1,0 +1,10 @@
+# ADK configuration for Smart Resume Analyzer assessment
+# This file would normally define agents, tools, and entry points.
+
+project: smart_resume_analyzer
+
+agents:
+  - id: agents
+    type: root
+
+# tools are discovered via python imports; custom tools are in tools/custom_tools.py
