@@ -7,7 +7,7 @@ require Google ADK.
 """
 
 from flask import Flask, request, render_template_string
-from agents.root_agent import RootAgent
+from agents.agent import root_agent
 import os
 
 app = Flask(__name__)
@@ -39,7 +39,7 @@ def index():
         if resume and jd:
             path = os.path.join(UPLOAD_FOLDER, resume.filename)
             resume.save(path)
-            agent = RootAgent()
+            agent = root_agent
             result = agent.run(path, jd)
             # read generated report file
             try:

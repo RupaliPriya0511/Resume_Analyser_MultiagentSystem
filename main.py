@@ -4,7 +4,7 @@ Usage:
 """
 
 import sys
-from agents.root_agent import RootAgent
+from agents.agent import root_agent
 
 
 def main():
@@ -15,7 +15,7 @@ def main():
     resume_path = sys.argv[1]
     job_description = sys.argv[2]
 
-    orchestrator = RootAgent()
+    orchestrator = root_agent
     result = orchestrator.run(resume_path, job_description)
 
     print("Analysis complete. Report at:", result["recommendation"]["report_path"])
